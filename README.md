@@ -55,6 +55,33 @@ npx ctx7 skills install /google-gemini/gemini-skills
 npx ctx7 skills install /google-gemini/gemini-skills vertex-ai-api-dev
 ```
 
+### gemini-live-api-dev
+
+Skill for building real-time, bidirectional streaming apps with the Gemini Live
+API. Covers WebSocket-based audio/video/text streaming, voice activity
+detection, native audio features, function calling, and session management.
+
+```sh
+# Vercel skills
+npx skills add google-gemini/gemini-skills --skill gemini-live-api-dev --global
+```
+
+```sh
+# Context7 skills
+npx ctx7 skills install /google-gemini/gemini-skills gemini-live-api-dev
+```
+
+### gemini-interactions-api
+
+Skill for building apps with the [Gemini Interactions API](https://ai.google.dev/gemini-api/docs/interactions?ua=chat). Covers text generation, multi-turn chat, streaming, function calling, structured output, image generation, Deep Research agents, deprecated model guardrails, and both Python and TypeScript SDKs.
+
+```bash
+# Vercel skills
+npx skills add google-gemini/gemini-skills --skill gemini-interactions-api --global
+# Context7 skills
+npx ctx7 skills install /google-gemini/gemini-skills gemini-interactions-api
+```
+
 ## Disclaimer
 
 This is not an officially supported Google product. This project is not
